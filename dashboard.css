@@ -169,7 +169,7 @@ ul li a:hover{
 #comentarios{
     width: 65%;
     margin-top: 20px;
-    height: 350px;
+    height: 40%;
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.66);
     background-color: white;
     overflow-y: auto;
@@ -205,7 +205,7 @@ text-align: left;
 
 #novosInscritos{
     width: 25%;
-    height: 350px;
+    height: 40%;
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.66);
     margin-top: 20px;
     background-color: white;
