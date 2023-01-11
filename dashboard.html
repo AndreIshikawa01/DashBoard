@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+    <header>
+      <i class="material-symbols-outlined" id="responsive">menu</i>
+      <h2 id="titulo">DashBoard Canal</h1>
+        <div class="search">
+        <input type="search" placeholder="Pesquisar..."><button class="material-symbols-outlined">Search</button>
+      </div>
+    </header>
+
+<div class="flex">
+<section id="menu">
+  <ul>
+    <li><a href="#">DashBoard</a></li>
+    <li><a href="#">Seguidores</a></li>
+    <li><a href="#">Views</a></li>
+    <li><a href="#">Likes</a></li>
+    <li><a href="#">Dislikes</a></li>
+    <li><a href="#">Comentários</a></li>
+    <li><a href="#">Novos</a></li>
+  </ul>
+</section>
+
+  <div class="column">
+  <section id="informações">
+    <div class="seguidores" id="info">
+      <div class="cardHeader"> 
+      <h1>Seguidores</h1>       
+      <i class="material-symbols-outlined" id="icon">new_releases</i>
+    </div>
+    <div class="cardBody">
+      <h2>840.890</h2>
+    </div>
+    </div> 
+
+    <div class="viws" id="info">
+      <div class="cardHeader"> 
+        <h1>Visualizações</h1>       
+        <i class="material-symbols-outlined" id="icon">Visibility</i>
+      </div>
+      <div class="cardBody">
+        <h2>16.567.345</h2>
+      </div>
+    </div>
+
+    <div class="likes" id="info">
+      <div class="cardHeader"> 
+        <h1>Likes</h1>       
+        <i class="material-symbols-outlined" id="icon">thumb_up</i>
+      </div>
+      <div class="cardBody">
+        <h2>7.567.232</h2>
+      </div>
+    </div>
+
+    <div class="dislikes" id="info">
+      <div class="cardHeader"> 
+        <h1>Dislikes</h1>       
+        <i class="material-symbols-outlined" id="icon">thumb_down</i>
+      </div>
+      <div class="cardBody">
+        <h2>76.456</h2>
+      </div>
+
+    </div>
+
+  </section> <!-- Section informações-->
+
+  <div class="canal">
+  <section id="comentarios">
+    <h1>Comentários</h1><hr>
+
+    <div class="tabela">
+      <table>
+        <tr>
+          <th>Nome</th>
+          <th>Comentario</th>
+          <th>Vídeo</th>
+          <th>Horário</th>
+        </tr>
+        <tr>
+          <td>André</td>
+          <td id="frases"></td>
+          <td>Vídeo 3</td>
+          <td>18:58</td>
+          
+        </tr>
+        <tr>
+          <td>João</td>
+          <td id="frases"></td>
+          <td>Vídeo 5</td>
+          <td>18:32</td>
+        </tr>
+
+        <tr>
+          <td>Maria</td>
+          <td id="frases"></td>
+          <td>Vídeo 3</td>
+          <td>18:21</td>
+        </tr>
+
+        <tr>
+          <td>Gabriel</td>
+          <td id="frases"></td>
+          <td>Vídeo 2</td>
+          <td>17:59</td>
+        </tr>
+
+        <tr>
+          <td>Beatriz</td>
+          <td id="frases"></td>
+          <td>Vídeo 1</td>
+          <td>17:47</td>
+        </tr>
+
+        <tr>
+          <td>Lucas</td>
+          <td id="frases"></td>
+          <td>Vídeo 4</td>
+          <td>17:39</td>
+        </tr>
+      </table>
+      </div>
+  </section>
+
+  <section id="novosInscritos">
+    <h1>Novos Inscritos</h1><hr>
+
+      <table class="tableNovos">
+        <tr>
+          <th>Nome</th>
+          <th>Horário</th>
+        </tr>
+
+        <tr>
+          <td>André</td>
+          <td>18:58</td>
+        </tr>
+
+        <tr>
+          <td>João</td>
+          <td>18:41</td>
+        </tr>
+
+        <tr>
+          <td>Maria</td>
+          <td>18:30</td>
+        </tr>
+
+        <tr>
+          <td>Gabriel</td>
+          <td>18:09</td>
+        </tr>
+
+        <tr>
+          <td>Beatriz</td>
+          <td>17:59</td>
+        </tr>
+
+        <tr>
+          <td>Lucas</td>
+          <td>17:57</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+</div>
+</div> <!-- div column-->
+</div> <!-- div flex-->
+
+<button id="fixed-button">Alert</button>
+
+
+<script src="dashboard.js"></script>
+</body>
+</html>
+
