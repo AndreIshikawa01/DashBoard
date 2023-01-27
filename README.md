@@ -4,4 +4,4 @@ Com esse "projeto" pratiquei as seguintes habilidades:<Br>
 2- Menu vertical responsivo;<Br>
 3- Gerador de comentários aleatórios;<Br>
 4- Menu ativo com javascript.<Br>
-https://andreishikawa01.github.io/DashBoard/dashboard.html
+https://andreishikawa01.github.io/DashBoard-PROJETO/dashboard.html
